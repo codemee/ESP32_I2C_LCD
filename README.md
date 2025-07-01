@@ -5,7 +5,7 @@
 ## 檔案結構
 
 - `i2c_lcd.py` : I2C LCD 驅動程式
-	- `main.py`    : 範例程式，在 LCD 的上下兩行分別顯示 "hello" 與 "world"
+- `main.py`    : 範例程式，在 LCD 的上下兩行分別顯示 "hello" 與 "world"
 
 ## 硬體連接
 
