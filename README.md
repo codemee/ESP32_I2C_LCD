@@ -5,20 +5,20 @@
 ## 檔案結構
 
 - `i2c_lcd.py` : I2C LCD 驅動程式
-- `main.py`    : 範例程式，在 LCD 顯示 "hello"
+	- `main.py`    : 範例程式，在 LCD 的上下兩行分別顯示 "hello" 與 "world"
 
 ## 硬體連接
 
 - ESP32 SDA -> GPIO21
 - ESP32 SCL -> GPIO22
-- LCD VCC  -> 3.3V (或 5V)
+- LCD VCC  -> 5V (一定要接 5V)
 - LCD GND  -> GND
 
 ## 使用方式
 
 1. 將 `i2c_lcd.py` 和 `main.py` 上傳到 ESP32 根目錄。
 2. 透過串列埠進入 REPL 或重啟裝置。
-3. LCD 顯示 "hello"。
+3. LCD 分別顯示 "hello" 與 "world" (上下兩行)。
 
 ## 調整
 
